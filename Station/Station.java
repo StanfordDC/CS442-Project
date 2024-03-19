@@ -1,4 +1,4 @@
-package Client;
+package Station;
 
 import java.math.BigInteger;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import CentralAuthority.PKG;
 
-public class Client {
+public class Station {
 	
 	
 	public static void main(String args[]){

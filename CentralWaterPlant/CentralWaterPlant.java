@@ -1,11 +1,11 @@
-package Server;
+package CentralWaterPlant;
 
 import java.math.BigInteger;
 import java.util.Scanner;
 
 import CentralAuthority.PKG;
 
-public class Server {
+public class CentralWaterPlant {
 	
 public static void main(String args[]){
 	

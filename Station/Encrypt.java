@@ -1,13 +1,10 @@
-package Client;
+package Station;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigInteger;
-
-
-import CentralAuthority.PKG;
 
 public class Encrypt {
 	

@@ -15,18 +15,16 @@ public class Station {
 		
 		Scanner p = new Scanner (System.in);
 		
-		System.out.println("Hi ! ...Client");
-		
-		System.out.println("Enter the your ID  (for eg: xyz@gmail.com)");
+		System.out.println("Enter your name:");
 		ID1 = p.next();
 		
-		System.out.println("Enter the User ID of Server (for eg: xyz@gmail.com)");
+		System.out.println("\nEnter ID of receiver:");
 		ID = p.next();
 		
 		temp = p.nextLine();
 		
 		
-		System.out.println("Enter the Message");
+		System.out.println("\nEnter the Message:");
 		temp = p.nextLine();
 		
 		message = ID1;
@@ -43,7 +41,7 @@ public class Station {
 		
 		
 		
-		System.out.println("\n --------------------Encrypted message is -------------------------\n");
+		System.out.println("\n--------------------Encrypted message is -------------------------\n");
 		
 		Encrypt encrypt1 = new Encrypt(ID,message,n,Public_key); 
 		

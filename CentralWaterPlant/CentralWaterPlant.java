@@ -13,11 +13,11 @@ public static void main(String args[]){
 		
 		Scanner p = new Scanner (System.in);
 		
-		System.out.println("Enter your User ID (for eg: abc@gmail.com)");
+		System.out.println("Enter your ID:");
 		ID = p.next();
 			
 		
-		System.out.println("Hi... I am Server,\nSearching for messages\n");
+		System.out.println("Searching for messages");
 		
 		
 		PKG pkg = new PKG();
@@ -25,7 +25,7 @@ public static void main(String args[]){
 		BigInteger n = pkg.getn();
 		
 		
-		System.out.println("\nMy Private Key is :- " +   Private_key );
+//		System.out.println("\nMy Private Key is :- " +   Private_key );
 		
 		
 		Decrypt decryptMessage = new Decrypt(ID,n,Private_key);

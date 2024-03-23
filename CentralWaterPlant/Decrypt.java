@@ -11,9 +11,8 @@ public class Decrypt {
 	BigInteger n , private_key;
 	String ID;
 
-    File file = new File("EncryptedMessage.txt");
-	
-    
+    File file = new File("C:\\Term 8 Classes\\CS442\\Identity-Based-Encryption\\ibe\\EncryptedMessage.txt");
+
 	public Decrypt( String ID,BigInteger n , BigInteger private_Key){
 		
 		this.ID = ID;
@@ -23,7 +22,7 @@ public class Decrypt {
 	}
 	
 	public String decrypt() {							// First Reading Message then crypting
-		
+		System.out.println(file.getAbsolutePath());
 		byte [] message = new byte[0];
 		int k;
 		boolean flag = false;

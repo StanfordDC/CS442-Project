@@ -1,1 +1,3 @@
-*.txt
+# Ignore Data.txt and EncryptedMessage.txt files
+Data.txt
+EncryptedMessage.txt

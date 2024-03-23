@@ -37,7 +37,7 @@ public class Station {
 		BigInteger n = pkg.getn();
 		
 		
-		System.out.println("\npublic key of Server is : " + Public_key);
+//		System.out.println("\npublic key of Server is : " + Public_key);
 		
 		
 		

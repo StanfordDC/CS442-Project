@@ -17,7 +17,7 @@ public static void main(String args[]){
 		ID = p.next();
 			
 		
-		System.out.println("Searching for messages");
+		System.out.println("\nSearching for messages");
 		
 		
 		PKG pkg = new PKG();
